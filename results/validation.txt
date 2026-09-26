@@ -1,0 +1,16 @@
+PASS: 100 nodes; coordinates in the unit square.
+PASS: fixed positions and periods; read-only arrays and exact before/after equality.
+PASS: integer tTransmit in 1..10 and lambda=1/tTransmit.
+PASS: all analyzed reference/sweep networks are connected.
+PASS: rc_min from MST; disconnected at the preceding float, connected at rc_min.
+PASS: maximum-degree bsink, deterministic tie rule; 20 distinct selected sinks.
+PASS: maximum achievable number of represented degree values.
+PASS: every route reaches its sink without cycles.
+PASS: cumulative loads match independent source-by-source path accumulation.
+PASS: transmission sum equals source-rate times hops and sum of non-sink loads.
+PASS: exact periodic packet counts at T=2520 s match the analytic rate.
+PASS: all 100 candidates evaluated for E2 and E3; minima checked.
+PASS: E2 equals sum of load times NEXT-LINK length, for every sink.
+PASS: E3 matches independent sum of remaining distances per source.
+PASS: fixed-sink hops/transmissions nonincreasing as radius increases.
+PASS: all CSVs round-trip numerically; plots consume those same tables.
